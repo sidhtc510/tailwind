@@ -30,7 +30,7 @@
                 <div class="leftbar border-2 border-violet-500">
                     <div class="leftmenu">
                         <ul>
-                            <li><a href="/ыкс">home</a></li>
+                            <li><a href="/src">home</a></li>
                             <li>test</li>
                             <li>test</li>
                             <li>test</li>
