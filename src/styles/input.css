@@ -1,0 +1,24 @@
+/* для запуска компиляции в input.css запусти в терминале */
+
+
+/* npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Nunito';
+    @apply tw-bg-indigo-200 tw-text-sm tw-text-center tw-p-6;
+}
+
+a {
+    @apply tw-underline;
+}
+
+a:hover {
+    @apply tw-no-underline
+}
+
+.appp {
+    @apply tw-bg-indigo-500 tw-p-10 tw-border-2 tw-mx-4 tw-my-2 tw-rounded-3xl tw-drop-shadow-xl;
+}
