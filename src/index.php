@@ -8,9 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="/src/styles/output.css" rel="stylesheet">
-    <link href="/src/styles/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -18,21 +16,21 @@
     <div class="container mx-auto">
         <div class="wrapforfooter">
         <div class="item1">
-            <div class="my-block header p-5 mb-5 border-solid border-violet-900">
+            <div class="my-block header p-5 mb-2 border-solid border-violet-900">
                 <p>header</p>
             </div>
         </div>
 
-        <!-- <div class="my-block slider border-solid border-violet-700 ">
+        <div class="my-block slider border-solid border-violet-700 mb-2 max-w-5xl mx-auto">
                 <p>slider</p>
-            </div> -->
+            </div>
 
         <div class="item2">
             <!-- <div class="contentWrapper grid "> -->
             <div class="leftbar border-2 border-violet-500">
                 <div class="leftmenu">
                     <ul>
-                        <li>test</li>
+                        <li><a href="ap.php">to the ap.php</a></li>
                         <li>test</li>
                         <li>test</li>
                         <li>test</li>

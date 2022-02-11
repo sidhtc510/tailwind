@@ -6,9 +6,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
     font-family: 'Nunito';
-    @apply bg-indigo-200 font-bold text-slate-800 text-center;
+    @apply bg-indigo-200 font-bold text-slate-800 text-center max-w-7xl mx-auto;
 }
 
 a {
@@ -16,17 +17,68 @@ a {
 }
 
 a:hover {
-    @apply no-underline;
+    /* @apply no-underline; */
 }
 
 .my-block {
     @apply bg-indigo-500 border-2 drop-shadow-xl;
 }
 
-.header {}
+.container {
+    max-width: 100% !important;
+    /* display: grid; */
+    grid-template-areas: 'header header header' 'content content content' 'footer footer footer';
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    min-height: 100vh;
+}
 
-.slider {}
+.wrapforfooter {
+    padding-bottom: 2.5rem;
+}
 
-.content {}
+.item1 {
+    grid-area: header;
+}
 
-.footer {}
+.item2 {
+    grid-area: content;
+    padding-bottom: 2.5rem;
+}
+
+.leftbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* min-width: 20vw; */
+    float: left;
+    padding: 0 0.75rem;
+}
+
+.leftmenu {
+    /* min-width: 360px; */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.contdiv {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.item3 {
+    grid-area: footer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
