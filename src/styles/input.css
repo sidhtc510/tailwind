@@ -8,17 +8,25 @@
 @tailwind utilities;
 body {
     font-family: 'Nunito';
-    @apply tw-bg-indigo-200 tw-text-sm tw-text-center tw-p-6;
+    @apply bg-indigo-200 font-bold text-slate-800 text-center;
 }
 
 a {
-    @apply tw-underline;
+    @apply underline;
 }
 
 a:hover {
-    @apply tw-no-underline
+    @apply no-underline;
 }
 
-.appp {
-    @apply tw-bg-indigo-500 tw-p-10 tw-border-2 tw-mx-4 tw-my-2 tw-rounded-3xl tw-drop-shadow-xl;
+.my-block {
+    @apply bg-indigo-500 border-2 drop-shadow-xl;
 }
+
+.header {}
+
+.slider {}
+
+.content {}
+
+.footer {}

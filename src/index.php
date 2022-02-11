@@ -10,13 +10,70 @@
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="/src/styles/output.css" rel="stylesheet">
+    <link href="/src/styles/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="appp">
-        <h3>test</h3>
-        <a href="ap.php">ap link</a>
+    <div class="container mx-auto">
+        <div class="wrapforfooter">
+        <div class="item1">
+            <div class="my-block header p-5 mb-5 border-solid border-violet-900">
+                <p>header</p>
+            </div>
+        </div>
+
+        <!-- <div class="my-block slider border-solid border-violet-700 ">
+                <p>slider</p>
+            </div> -->
+
+        <div class="item2">
+            <!-- <div class="contentWrapper grid "> -->
+            <div class="leftbar border-2 border-violet-500">
+                <div class="leftmenu">
+                    <ul>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="my-block content border-solid border-violet-500 md:bg-red-500 lg:bg-blue-500">
+
+            <div class="contdiv border-2 border-violet-900">
+                    <p>content</p>
+                </div>
+                <div class="contdiv border-2 border-violet-900">
+                    <p>content</p>
+                </div>
+                <div class="contdiv border-2 border-violet-900">
+                    <p>content</p>
+                </div>
+                <div class="contdiv border-2 border-violet-900">
+                    <p>content</p>
+                </div>
+                
+                
+            </div>
+            <!-- </div> -->
+        </div>
+        </div>
+
+        <div class="item3 min-w-full">
+            <div class="my-block footer border-solid border-violet-700 ">
+                <div class="">
+                    <p>footer</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 

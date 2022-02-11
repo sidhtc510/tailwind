@@ -1,6 +1,6 @@
 module.exports = {
     content: ["./src/**/*.{html,php,js}"],
-    prefix: 'tw-',
+    prefix: '',
     fontFamily: {
         sans: ['Graphik', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
