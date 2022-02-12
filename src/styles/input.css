@@ -9,7 +9,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
     font-family: 'Nunito';
-    @apply bg-indigo-200 font-bold text-slate-800 text-center max-w-7xl mx-auto;
+    max-width: 110rem;
+    @apply bg-indigo-200 font-bold text-slate-800 text-center mx-auto;
 }
 
 a {
@@ -52,10 +53,6 @@ a:hover {
     /* min-width: 20vw; */
     float: left;
     padding: 0 0.75rem;
-}
-
-.leftmenu {
-    /* min-width: 360px; */
 }
 
 .content {

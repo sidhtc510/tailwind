@@ -28,7 +28,7 @@
         <div class="item2">
             <!-- <div class="contentWrapper grid "> -->
             <div class="leftbar border-2 border-violet-500">
-                <div class="leftmenu">
+                
                     <ul>
                         <li><a href="ap.php">to the ap.php</a></li>
                         <li>test</li>
@@ -41,7 +41,7 @@
                         <li>test</li>
                         <li>test</li>
                     </ul>
-                </div>
+                
             </div>
             <div class="my-block content border-solid border-violet-500 md:bg-red-500 lg:bg-blue-500">
 
