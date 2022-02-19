@@ -45,55 +45,15 @@
                 </div>
                 <div class="my-block content border-solid border-violet-500 md:bg-red-500 lg:bg-blue-500">
 
-                <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-                    <div class="contdiv border-2 border-violet-900">
-                        <p>content</p>
-                    </div>
-
+                    <?
+                    $f = 0;
+                    while ($f < 30) : ?>
+                        <div class="contdiv border-2 border-violet-900">
+                            <p>content</p>
+                        </div>
+                    <? $f++;
+                    endwhile;
+                    ?>
 
                 </div>
                 <!-- </div> -->
